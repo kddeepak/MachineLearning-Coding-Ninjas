@@ -1,0 +1,28 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+
+int main() {
+  
+  int q;
+  cin>>q;
+
+  for(int cse=1;cse<=q;cse++){
+
+    int n;
+    cin>>n;
+    for(int i=0;i<=n;i++){
+      int t;
+      cin>>t;
+    }
+    cout<<"Case #"<<cse<<" ";
+    if((n+1)%2==0){
+        cout<<1<<endl;
+        cout<<"0.0"<<endl;
+    }
+    else{
+        cout<<0<<endl;
+    }
+  }
+  return 0;
+}
